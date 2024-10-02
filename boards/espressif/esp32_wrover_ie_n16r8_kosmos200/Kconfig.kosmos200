@@ -8,4 +8,4 @@ config BOARD_ESP_KOSMOS200
 	#seems we have to disable SOC_ESP32_PROCPU because our PSRAM is 8MB
 	select SOC_ESP32_PROCPU
 	#TODO: no se si habilitar esto
-	select SOC_ESP32_APPCPU
+	#select SOC_ESP32_APPCPU
