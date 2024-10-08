@@ -16,6 +16,6 @@ manifest:
       remote: zephyrproject-rtos
       revision: v3.7.0
       import: true
-    - name: centrius-libraries
+    - name: hubelectronics-library
       remote: hubelectronics
       revision: main
