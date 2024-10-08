@@ -1,0 +1,24 @@
+identifier: esp32_wrover_ie_n16r8_kosmos200
+name: KOSMOS-200
+type: mcu
+arch: xtensa
+toolchain:
+  - zephyr
+supported:
+  - adc
+  - dac
+  - gpio
+  - i2c
+  - watchdog
+  - uart
+  - nvs
+  - pwm
+  - sdhc
+  - spi
+  - counter
+  - entropy
+testing:
+  ignore_tags:
+    - net
+    - bluetooth
+vendor: espressif

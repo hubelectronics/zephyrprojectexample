@@ -1,0 +1,11 @@
+# ESP-WROVER-KIT board configuration
+
+# Copyright (c) 2021 Espressif Systems (Shanghai) Co., Ltd.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_ESP_KOSMOS200
+	select SOC_ESP32_WROVER_E_N16R8
+	#seems we have to disable SOC_ESP32_PROCPU because our PSRAM is 8MB
+	select SOC_ESP32_PROCPU
+	#TODO: no se si habilitar esto
+	#select SOC_ESP32_APPCPU
