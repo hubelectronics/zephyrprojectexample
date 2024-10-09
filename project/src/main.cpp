@@ -5,7 +5,8 @@
 
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
-#include "C:\Users\Ruben\kosmos200\hubelectronics-library\common\atomic_pwm.hpp" //TODO: esta ruta no ha de poder depender de ruben ya que ha de ser comun para todos
+
+#include "..\..\application\kosmos200.hpp"
 
 LOG_MODULE_REGISTER(main, CONFIG_APP_LOG_LEVEL);
 

@@ -10,7 +10,9 @@
 #TODO: this should be uncommented and fixed zephyr_syscall_include_directories(include)
 
 zephyr_include_directories(include)
-zephyr_include_directories(hubelectronics-library)
+zephyr_include_directories(../)
+zephyr_include_directories(application/.)
+zephyr_library_sources(application/kosmos200.cpp)
 
 add_subdirectory(drivers)
 add_subdirectory(lib)
