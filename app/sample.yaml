@@ -3,12 +3,12 @@
 # so that you can easily test all of them locally or in CI.
 sample:
   description: Kosmos200-application
-  name: kosmos200-application 
+  name: kosmos200-application
 common:
   build_only: true
   integration_platforms:
     - custom_plank
-    - esp32_wrover_ie_n16r8_kosmos200
+    - kosmos200/esp32/procpu
 tests:
   app.default: {}
   app.debug:

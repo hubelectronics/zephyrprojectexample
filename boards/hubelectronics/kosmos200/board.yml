@@ -1,0 +1,5 @@
+board:
+  name: kosmos200
+  vendor: hubelectronics
+  socs:
+  - name: esp32
