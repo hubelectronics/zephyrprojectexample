@@ -6,7 +6,7 @@
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
 
-#include "..\..\application\kosmos200.hpp"
+#include "../../application/kosmos200.hpp"
 
 LOG_MODULE_REGISTER(main, CONFIG_APP_LOG_LEVEL);
 

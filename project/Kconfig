@@ -8,6 +8,7 @@
 
 menu "Zephyr"
 source "Kconfig.zephyr"
+source "../hubelectronics-library/Kconfig"
 endmenu
 
 module = APP
