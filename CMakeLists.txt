@@ -7,9 +7,10 @@
 
 # This is needed so that custom driver classes using system calls are taken into
 # account
-zephyr_syscall_include_directories(include)
+#TODO: this should be uncommented and fixed zephyr_syscall_include_directories(include)
 
 zephyr_include_directories(include)
+zephyr_include_directories(hubelectronics-library)
 
 add_subdirectory(drivers)
 add_subdirectory(lib)
