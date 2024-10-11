@@ -1,5 +1,5 @@
-identifier: esp32_wrover_ie_n16r8_kosmos200
-name: KOSMOS-200
+identifier: kosmos200/esp32/procpu
+name: Kosmos200 PROCPU
 type: mcu
 arch: xtensa
 toolchain:
@@ -13,12 +13,13 @@ supported:
   - uart
   - nvs
   - pwm
-  - sdhc
+  - dac
   - spi
   - counter
   - entropy
+  - input
 testing:
   ignore_tags:
     - net
     - bluetooth
-vendor: espressif
+vendor: hubelectronics

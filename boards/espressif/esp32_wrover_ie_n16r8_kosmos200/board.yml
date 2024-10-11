@@ -1,5 +1,0 @@
-board:
-  name: esp32_wrover_ie_n16r8_kosmos200
-  vendor: espressif
-  socs:
-    - name: esp32
