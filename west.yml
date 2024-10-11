@@ -8,14 +8,15 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
-    - name: hubelectronics
-      url-base: https://github.com/hubelectronics
+    - name: centrius-libraries
+      url-base: https://github.com/hubelectronics/centrius-libraries.git
 
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
-      revision: v3.7.0
+      revision: 4793e00ae803ae6b7948e4c110f7ceef11821ef5
       import: true
-    - name: hubelectronics-library
-      remote: hubelectronics
+    - name: centrius-library
+      remote: centrius-libraries
       revision: main
+      import: true
