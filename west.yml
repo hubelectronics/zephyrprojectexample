@@ -14,7 +14,7 @@ manifest:
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
-      revision: v3.7.0
+      revision: 4793e00ae803ae6b7948e4c110f7ceef11821ef5
       import: true
     - name: centrius-library
       remote: centrius-libraries
