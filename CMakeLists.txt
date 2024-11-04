@@ -11,6 +11,7 @@
 
 zephyr_include_directories(include)
 zephyr_include_directories(../)
+zephyr_include_directories(../hubelectronics-library)
 zephyr_include_directories(application/.)
 zephyr_library_sources(application/kosmos200.cpp)
 

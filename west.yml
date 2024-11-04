@@ -3,7 +3,7 @@
 
 manifest:
   self:
-    path: kosmos200-application
+    path: example-application
 
   remotes:
     - name: zephyrproject-rtos
