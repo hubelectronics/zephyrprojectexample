@@ -5,11 +5,12 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
+#include <dt-bindings/led/led.h>
 #include "custom_plank-pinctrl.dtsi"
 
 / {
 	model = "Custom Plank Board";
-	compatible = "vendor,custom-plank";
+	compatible = "hubelectronics,custom-plank";
 
 	chosen {
 		zephyr,console = &uart0;
@@ -22,7 +23,7 @@
 		input-gpios = <&gpio0 11 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 	};
 
-	led_remote_tx {
+	led_remote_rx {
 		compatible = "hubelectronics,led-simple";
 		enable-gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
 	};

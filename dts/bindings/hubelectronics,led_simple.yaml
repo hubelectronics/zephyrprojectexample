@@ -1,0 +1,13 @@
+# Copyright (c) 2024 HUB Electronics Hardware Engineering SL
+
+description: LED_SIMPLE
+
+compatible: "hubelectronics,led-simple"
+
+properties:
+
+  enable-gpios:
+    type: phandle-array
+    required: true
+    description:
+      GPIOs for enabling leds.

@@ -15,5 +15,4 @@ zephyr_include_directories(../hubelectronics-library)
 zephyr_include_directories(application/.)
 zephyr_library_sources(application/kosmos200.cpp)
 
-add_subdirectory(drivers)
 add_subdirectory(lib)

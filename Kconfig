@@ -9,7 +9,6 @@
 
 menu "Example Application"
 
-rsource "drivers/Kconfig"
 rsource "lib/Kconfig"
 rsource "../hubelectronics-library/led_simple/Kconfig"
 rsource "../hubelectronics-library/common/Kconfig"
