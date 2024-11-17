@@ -6,7 +6,7 @@ At HUB ELECTRONICS, we work on a large number of projects with a wide variety of
 
 Our goal is to use Zephyr for all projects that support this platform and gradually expand our sensor library with the intention of easily reusing it in the future. Therefore, each library must be designed with the following aspects in mind: **ease of understanding**, **efficiency**, and **reusability**.
 
-Similarly, we want all programmers to use the same development environment so that we can help each other and share the knowledge that each one acquires on this platform. For this reason, we will use **Windows**, **Visual Studio Code**, and **Zephyr RTOS 3.7.0**, as it is the latest LTS (Long Term Support) version at the time this guide is being written. Additionally, as much as possible, we will try to program in **C++** to achieve better code structure.
+Similarly, we want all programmers to use the same development environment so that we can help each other and share the knowledge that each one acquires on this platform. For this reason, we will use **Windows**, **Visual Studio Code**, and **Zephyr RTOS 3.7.99 revision 4793e00ae803ae6b7948e4c110f7ceef11821ef5**, as it is the latest LTS (Long Term Support) version at the time this guide is being written. Additionally, as much as possible, we will try to program in **C++** to achieve better code structure.
 
 ## Zephyr Installation
 

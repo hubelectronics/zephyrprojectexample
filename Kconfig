@@ -10,8 +10,7 @@
 menu "Example Application"
 
 rsource "lib/Kconfig"
-rsource "../hubelectronics-library/led_simple/Kconfig"
-rsource "../hubelectronics-library/common/Kconfig"
+rsource "hubelectronics-library/Kconfig"
 
 endmenu
 
