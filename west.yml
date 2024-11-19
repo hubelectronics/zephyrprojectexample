@@ -3,20 +3,19 @@
 
 manifest:
   self:
-    path: kosmos200-application
+    path: example-application
 
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
-    - name: centrius-libraries
-      url-base: https://github.com/hubelectronics/centrius-libraries.git
+    - name: hubelectronics
+      url-base: https://github.com/hubelectronics
 
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
       revision: 4793e00ae803ae6b7948e4c110f7ceef11821ef5
       import: true
-    - name: centrius-library
-      remote: centrius-libraries
+    - name: hubelectronics-library
+      remote: hubelectronics
       revision: main
-      import: true

@@ -60,6 +60,11 @@
         };
     };
 
+    led_remote_rx {
+		compatible = "hubelectronics,led-simple";
+		enable-gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
+	};
+
     pwmleds {
         compatible = "pwm-leds";
         pwm_led_red: pwm_led_0 {

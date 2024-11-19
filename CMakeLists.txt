@@ -7,9 +7,9 @@
 
 # This is needed so that custom driver classes using system calls are taken into
 # account
-#TODO: why did we use it? zephyr_syscall_include_directories(include)
+zephyr_syscall_include_directories(hubelectronics-library)
 
-zephyr_include_directories(include)
+zephyr_include_directories(hubelectronics-library)
+zephyr_library_sources(application/kosmos200.cpp)
 
-add_subdirectory(drivers)
-add_subdirectory(lib)
+add_subdirectory(hubelectronics-library)

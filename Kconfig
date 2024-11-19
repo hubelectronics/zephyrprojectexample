@@ -5,5 +5,12 @@
 # as the module Kconfig entry point (see zephyr/module.yml). You can browse
 # module options by going to Zephyr -> Modules in Kconfig.
 
-rsource "drivers/Kconfig"
-rsource "lib/Kconfig"
+# Copyright (c) 2024 HUB Electronics Hardware Engineering SL
+
+menu "Example Application"
+
+rsource "hubelectronics-library/Kconfig"
+
+endmenu
+
+
