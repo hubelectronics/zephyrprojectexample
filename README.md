@@ -35,4 +35,7 @@ Similarly, we want all programmers to use the same development environment so th
    west build -b $BOARD app
    west flash
    ````
+
+5. If we get to compile with no errors we can now clone our common library hubelectronics-library as a submodule
+   git clone https://github.com/hubelectronics/hubelectronics-library.git
    
