@@ -9,7 +9,6 @@
 
 menu "Example Application"
 
-rsource "lib/Kconfig"
 rsource "hubelectronics-library/Kconfig"
 
 endmenu

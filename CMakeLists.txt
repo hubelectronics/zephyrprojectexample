@@ -13,4 +13,3 @@ zephyr_include_directories(hubelectronics-library)
 zephyr_library_sources(application/kosmos200.cpp)
 
 add_subdirectory(hubelectronics-library)
-add_subdirectory(lib)
