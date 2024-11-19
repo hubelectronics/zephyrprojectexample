@@ -17,25 +17,25 @@ Similarly, we want all programmers to use the same development environment so th
    2. Run the following commands:
       ```cmd
       cd %HOMEPATH%
-      python -m venv [name of the directory you want to use]\.venv
-      [name of the directory you want to use]\.venv\Scripts\activate.bat
+      python -m venv [name of the application directory you want to use]\.venv
+      [name of your application repository]\.venv\Scripts\activate.bat
       pip install west
       west init -m [GitHub URL]
-      cd [name of the directory you want to use]
+      cd [name of your application repository]
       west update
       west zephyr-export
-      pip install -r %HOMEPATH%\[name of the directory you want to use]\zephyr\scripts\requirements.txt
+      pip install -r %HOMEPATH%\[name of your application repository]\zephyr\scripts\requirements.txt
       ```
 
 3. Go back to the Getting Started Guide and follow the **Zephyr SDK** installation.
 
 4. Then we will compile the project:
    ```cmd
-   cd example-application
-   west build -b $BOARD app
+   cd [name of your application repository]
+   west build -b $[select the board, ex nrf52840dk_nrf52840] app
    west flash
    ````
 
-5. If we get to compile with no errors we can now clone our common library hubelectronics-library as a submodule
+5. If we get to compile with no errors we can now clone our common library hubelectronics-library as a submodule inside our project
    git clone https://github.com/hubelectronics/hubelectronics-library.git
    
