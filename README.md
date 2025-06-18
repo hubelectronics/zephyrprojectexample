@@ -23,17 +23,25 @@ At HUB ELECTRONICS, we work on a large number of projects with a wide variety of
 
 3. Go back to the Getting Started Guide and follow the **Zephyr SDK** installation.
 
-4. Then we will compile the project:
+4. We can now clone our common library hubelectronics-library as a submodule inside our project
+git clone https://github.com/hubelectronics/hubelectronics-library.git
+
+If we find we have already this submodule added but we do not see the content, we could maybe need to run the fol
+	git submodule update --init --recursive
+
+5. Then we will compile the project:
 	```cmd
 	cd [name of your application repository]
 	west build -b $[select the board, ex nrf52840dk_nrf52840] app
 	west flash
 	````
 
-5. If we get to compile with no errors we can now clone our common library hubelectronics-library as a submodule inside our project
-git clone https://github.com/hubelectronics/hubelectronics-library.git
 
-
-## Zephyr Installation
+## Zephyr support
 
 	Zephyr provides support through two platforms: Discord, recommended for quick questions and inquiries, and GitHub, for more complex questions and bug reporting. 
+
+
+## Other interesting links
+
+	https://docs.zephyrproject.org/latest/develop/tools/vscode.html
